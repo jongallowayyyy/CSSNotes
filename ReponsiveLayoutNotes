@@ -1,0 +1,38 @@
+--------------------------------------------------------------------------------------------------------------------------
+
+1. What is Reponsive Design?
+
+Responsive web design is a collection of techniques for building websites that work on multiple screen sizes. The scope of responsive design sometimes also includes websites that work at different pixel densities, such as traditional screens or high DPI screens.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+2. Thinking in Relative Units
+
+Prior to responsive web design, most web designers thought in terms of print design. Instead of thinking about layout in terms of fixed values, we must think in terms of ratios or percentages.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+3. Media Query
+
+Media queries are CSS rules that help us include CSS code only when certain conditions are met. These conditions are called media features, and in the case of responsive web design, the media feature most commonly used is width, or more specifically, min-width.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+4. Understanding Breakpoints
+
+In responsive web design, you can think of a breakpoint as a width where the current layout no longer works and the layout breaks. If the layout breaks, then it necessitates a media query that adjusts the layout.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+5. Creating Breakpoints
+
+Breakpoints define a certain threshold where the layout should change, typically defined by the content (and not by devices).
+
+--------------------------------------------------------------------------------------------------------------------------
+
+6. Responsive Patterns
+
+A design pattern defines a generic approach to a common problem in design. In responsive web design, it's important to consider how different design patterns will translate from one breakpoint to another.
+
+--------------------------------------------------------------------------------------------------------------------------
+
