@@ -1,0 +1,65 @@
+--------------------------------------------------------------------------------------------------------------------------
+
+1. Attribute Selectors
+
+This attribute selector targets any element that has a class attribute:
+
+[class] {
+  border: solid 1px #ccc;
+}
+To target an input element with a type value of submit, we write:
+
+input[type="submit"] {
+  background-color: green;
+}
+This targets a elements with a target value of _blank:
+
+a[target="_blank"] {
+  color: tomato;
+}
+
+--------------------------------------------------------------------------------------------------------------------------
+
+2. Styling Form Buttons and Links with Attribute Selectors
+
+This target an input element with a type value of email:
+
+input[type="email"] {
+  background: yellow;
+}
+
+--------------------------------------------------------------------------------------------------------------------------
+
+3. DRY CSS
+
+DRY stands for "Don’t Repeat Yourself." The main idea with DRY in CSS is to avoid repeating the same bits of code in our style sheet. In this video, we'll take a look at a few example of writing DRY'er CSS.
+
+Example:
+
+CSS:
+
+.btn {
+ cursor: pointer;   
+ color: #fff;
+ padding-left: 20px;
+ padding-right: 20px;
+}
+.default-theme {
+  background-color: coral;
+}
+HTML:
+
+<input class="btn default-theme" type="submit" value="submit">
+
+--------------------------------------------------------------------------------------------------------------------------
+
+4. Child, Adjacent, and General Sibling Combinators
+
+Combinators give us the flexibility of targeting any siblings of an element. We can use the greater-than sign (>), plus sign (+), or tilde symbol (~) to make our selectors more specific.
+
+The > combinator targets a direct child of an element
+The + combinator targets an element's immediate sibling
+The ~ combinator targets all the specified siblings that follow an element
+
+--------------------------------------------------------------------------------------------------------------------------
+
